@@ -1,13 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Futbol</title>
-    <h2> Hola </h2>
-</head>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Futbol</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/master.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <link rel="stylesheet" href="css/bootstrap.css">
+       
+	</head>
 <body>
-    <h1>Prueba de GitHub de la Pagina</h1>
+  <!--Contenido-->
+    <div class="container-fluid">
+			<header id="header" class="main-header row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <!-- Navegador-->
+              <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+                  <a class="navbar-brand" href="#">♦</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                          <i class="fa fa-home"></i>
+                          Inicio
+                          <span class="sr-only">(current)</span>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fa fa-envelope-o">
+                            <span class="badge badge-danger">0</span>
+                          </i>
+                          Mensajes
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                          <i class="fa fa-envelope-o">
+                            <span class="badge badge-danger">0</span>
+                          </i>
+                          Notificaciones
+                        </a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Buscar">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </nav>
+          </div>
+      </header>
+    </div>
+   
+      <!-- Contenido-->
+      <div class="container">
+          <div class="row">
+            <!-- Cuadro Izquierdo-->
+            <div class="col-sm">
+                <ul class="list-group">
+                    <li class="list-group-item">Perfil</li>
+                    <li class="list-group-item">Amigos</li>
+                    <li class="list-group-item">Juego</li>
+                    <li class="list-group-item">Mensajes</li>
+                    <li class="list-group-item">Notificaciones</li>
+                  </ul>
+            </div>
+            <!-- Contenido Del Medio-->
+            <div class="col-sm">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Message">
+                    <div class="bpt">
+                      <button type="button" class="cg ns yf">
+                        <span class="h bao"></span>
+                      </button>
+                    </div>
+                  </div>
+                  <li class="rv b agz">
+                      <img class="bos vb yb aff" src="assets/img/avatar-fat.jpg">
+                      <div class="rw">
+                        <div class="bpd">
+                          <div class="bpb">
+                            <small class="acx axc">12 min</small>
+                            <h6>Jacob Thornton</h6>
+                          </div>
+                          <p>
+                            Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+            </div>
+              <!-- Contenido Derecho-->
+            <div class="col-sm">
+                <ul class="list-group">
+                    <li class="list-group-item">Aca nose que</li>
+                    <li class="list-group-item">poner todavia</li>
+                    <li class="list-group-item">pero voy a ver </li>
+                    <li class="list-group-item">que</li>
+                    <li class="list-group-item">poner</li>
+                  </ul>
+            </div>
+          </div>
+        </div>  
+            
+			
+
+		
+	
 </body>
 </html>
