@@ -1,5 +1,8 @@
-body {
-	position: relative;
+
+body{
+	padding: 0px auto;
+	background-image: url("../img/fondo.jpg");
+
 }
 
 .container-fluid{
@@ -8,7 +11,41 @@ body {
 }
 pre {
 	tab-size: 8;
+
 }
+
+
+  
+  /* Sidebar links */
+  .sidebar a {
+	display: block;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+	
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+	background-color: #071a2b;
+	color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+	background-color: #0b3040;
+	color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+	margin-left: 200px;
+	padding: 1px 16px;
+	height: 1000px;
+  }
+  
+ 
+  
 
 @media screen and (max-width: 768px) {
 	.side-collapse-container{
