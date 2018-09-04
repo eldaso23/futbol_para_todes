@@ -305,3 +305,16 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+/* para que se quede fija la barra de arriba */
+#header{
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 10;
+}
+ /* marco de foto de perfil */
+
+ .foto-perfil{
+    border: 5px inset gold ; 
+}
